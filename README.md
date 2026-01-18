@@ -41,23 +41,19 @@ Correlations: Temperature (temp) shows a high correlation with the total rental 
 
 How to Run Locally
 
-    Clone this repository:
-    Bash
+1.Clone this repository: 
+    
+    git clone https://github.com/your-username/bike-rental-dashboard.git
 
-git clone https://github.com/your-username/bike-rental-dashboard.git
-
-Navigate to the project folder:
-Bash
+2. Navigate to the project folder:
 
 cd bike-rental-dashboard
 
-Install the required libraries:
-Bash
+3. Install the required libraries:
 
 pip install -r requirements.txt
 
 Run the Streamlit app:
-Bash
 
     streamlit run app.py
 
